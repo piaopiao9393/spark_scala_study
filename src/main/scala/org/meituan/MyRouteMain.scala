@@ -24,6 +24,7 @@ object MyRouteMain  {
     val helloWorld = sc.parallelize(List("Hello,World!","Hello,Spark!","Hello,BigData!"))
 
     helloWorld.foreach(line => println(line))
+    println("hello")
   }
 }
 
